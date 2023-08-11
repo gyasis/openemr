@@ -36,7 +36,6 @@ services:
       MYSQL_HOST: mysql
       MYSQL_ROOT_PASS: root
       MYSQL_USER: openemr
-      MYSQL_PASS: openemr
       OE_USER: admin
       OE_PASS: pass
       EASY_DEV_MODE: "yes"

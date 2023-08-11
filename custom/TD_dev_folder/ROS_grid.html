@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      .centered {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 10px;
+        vertical-align: middle;
+      }
+      td:first-child {
+        width: 30%;
+        font-weight: bold;
+      }
+      td:last-child {
+        text-align: center;
+      }
+      legend {
+        background-color: #444;
+        color: white;
+        padding: 10px;
+      }
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+      .light-gray {
+        background-color: #eee;
+      }
+      .light-green {
+        background-color: #c8e6c9;
+      }
+      .pink {
+        background-color: #ffcccb;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <form>
+            <fieldset>
+              <legend style="background-color: #444; color: white; padding: 10px;">Constitutional</legend>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Weight Change:</td>
+                    <td class="light-gray">
+                      <input type="radio" name="weight_change" value="N/A" checked="checked" id="weight_change">
+                      <label for="weight_change">N/A</label>
+                    </td>
+                    <td class="light-green">
+                      <input type="radio" name="weight_change" value="YES" id="weight_change">
+                      <label for="weight_change">YES</label>
+                    </td>
+                    <td class="pink">
+                      <input type="radio" name="weight_change" value="NO" id="weight_change">
+                      <label for="weight_change">NO</label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Anorexia:</td>
+                    <td class="light-gray">
+                      <input type="radio" name="anorexia" value="N/A" checked="checked" id="anorexia">
+                      <label for="anorexia">N/A</label>
+                    </td>
+                    <td class="light-green">
+                      <input type="radio" name="anorexia" value="YES" id="anorexia">
+                      <label for="anorexia">YES</label>
+                    </td>
+                    <td class="pink">
+                      <input type="radio" name="anorexia" value="NO" id="anorexia">
+                      <label for="anorexia">NO</label>
+                    </tr>
+                    <tr>
+                      <td>Night Sweats:</td>
+                      <td class="light-gray">
+                        <input type="radio" name="night_sweats" value="N/A" checked="checked" id="night_sweats">
+                        <label for="night_sweats">N/A</label>
+                      </td>
+                      <td class="light-green">
+                        <input type="radio" name="night_sweats" value="YES" id="night_sweats">
+                        <label for="night_sweats">YES</label>
+                      </td>
+                      <td class="pink">
+                        <input type="radio" name="night_sweats" value="NO" id="night_sweats">
+                        <label for="night_sweats">NO</label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Heat or Cold:</td>
+                      <td class="light-gray">
+                        <input type="radio" name="heat_or_cold" value="N/A" checked="checked" id="heat_or_cold">
+                        <label for="heat_or_cold">N/A</label>
+                      </td>
+                      <td class="light-green">
+                        <input type="radio" name="heat_or_cold" value="YES" id="heat_or_cold">
+                        <label for="heat_or_cold">YES</label>
+                      </td>
+                      <td class="pink">
+                        <input type="radio" name="heat_or_cold" value="NO" id="heat_or_cold">
+                        <label for="heat_or_cold">NO</label>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>Anorexia:</td>
+                        <td class="light-gray">
+                          <input type="radio" name="anorexia" value="N/A" checked="checked" id="anorexia">
+                          <label for="anorexia">N/A</label>
+                        </td>
+                        <td class="light-green">
+                          <input type="radio" name="anorexia" value="YES" id="anorexia">
+                          <label for="anorexia">YES</label>
+                        </td>
+                        <td class="pink">
+                          <input type="radio" name="anorexia" value="NO" id="anorexia">
+                          <label for="anorexia">NO</label>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Weakness:</td>
+                        <td class="light-gray">
+                          <input type="radio" name="weakness" value="N/A" checked="checked" id="weakness">
+                          <label for="weakness">N/A</label>
+                        </td>
+                        <td class="light-green">
+                          <input type="radio" name="weakness" value="YES" id="weakness">
+                          <label for="weakness">YES</label>
+                        </td>
+                        <td class="pink">
+                          <input type="radio" name="weakness" value="NO" id="weakness">
+                          <label for="weakness">NO</label>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Fever:</td>
+                        <td class="light-gray">
+                          <input type="radio" name="fever" value="N/A" checked="checked" id="fever">
+                          <label for="fever">N/A</label>
+                        </td>
+                        <td class="light-green">
+                          <input type="radio" name="fever" value="YES" id="fever">
+                          <label for="fever">YES</label>
+                        </td>
+                        <td class="pink">
+                          <input type="radio" name="fever" value="NO" id="fever">
+                          <label for="fever">NO</label>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Insomnia:</td>
+                        <td class="light-gray">
+                          <input type="radio" name="insomnia" value="N/A" checked="checked" id="insomnia">
+                          <label for="insomnia">N/A</label>
+                        </td>
+                        <td class="light-green">
+                          <input type="radio" name="insomnia" value="YES" id="insomnia">
+                          <label for="insomnia">YES</label>
+                        </td>
+                        <td class="pink">
+                          <input type="radio" name="insomnia" value="NO" id="insomnia">
+                          <label for="insomnia">NO</label>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Intolerance:</td>
+                        <td class="light-gray">
+                          <input type="radio" name="intolerance" value="N/A" checked="checked" id="intolerance">
+                          <label for="intolerance">N/A</label>
+                        </td>
+                        <td class="light-green">
+                          <input type="radio" name="intolerance" value="YES" id="intolerance">
+                          <label for="intolerance">YES</label>
+                        </td>
+                        <td class="pink">
+                          <input type="radio" name="intolerance" value="NO" id="intolerance">
+                          <label for="intolerance">NO</label>
+                      
+
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>Fatigue:</td>
+                      <td class="light-gray">
+                        <input type="radio" name="fatigue" value="N/A" checked="checked" id="fatigue">
+                        <label for="fatigue">N/A</label>
+                      </td>
+                      <td class="light-green">
+                        <input type="radio" name="fatigue" value="YES" id="fatigue">
+                        <label for="fatigue">YES</label>
+                      </td>
+                      <td class="pink">
+                        <input type="radio" name="fatigue" value="NO" id="fatigue">
+                        <label for="fatigue">NO</label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Chills:</td>
+                      <td class="light-gray">
+                        <input type="radio" name="chills" value="N/A" checked="checked" id="chills">
+                        <label for="chills">N/A</label>
+                      </td>
+                      <td class="light-green">
+                        <input type="radio" name="chills" value="YES" id="chills">
+                        <label for="chills">YES</label>
+                      </td>
+                      <td class="pink">
+                        <input type="radio" name="chills" value="NO" id="chills">
+                        <label for="chills">NO</label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Irritability:</td>
+                      <td class="light-gray">
+                        <input type="radio" name="irritability" value="N/A" checked="checked" id="irritability">
+                        <label for="irritability">N/A</label>
+                      </td>
+                      <td class="light-green">
+                        <input type="radio" name="irritability" value="YES" id="irritability">
+                        <label for="irritability">YES</label>
+                      </td>
+                      <td class="pink">
+                        <input type="radio" name="irritability" value="NO" id="irritability">
+                        <label for="irritability">NO</label>
+                      </td>
+                    </tr>
+
+
+
+
+
+                  </tbody>
+                </table>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </body>
+    </html>      
